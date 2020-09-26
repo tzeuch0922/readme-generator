@@ -26,7 +26,7 @@ ${data.usage}`
 * [Usage](#usage)`;
   }
 
-  if(data.license !== "")
+  if(data.license !== "none")
   {
     license = `## License
 Licensed under the ${data.license} license.`;
@@ -81,6 +81,12 @@ ${data.email}
 `;
     }
   }
+
+  if(tableOfContents === "## Table Of Contents")
+  {
+    tableOfContents = "";
+  }
+
   return `# ${data.title}
 ${licenseBadge}
 ## Description
