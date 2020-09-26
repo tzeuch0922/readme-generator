@@ -1,26 +1,28 @@
 # Readme Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://wwww.opensource.org/licenses/MIT)
 ## Description
-A program written in node.js for producing a professional readme. It will take user input using inquirer to ask the user relevant questions to produce the readme.
+Generates readme for project after answering relevant questions.
 
 ## Table Of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
+* [Test](#test)
 * [Questions](#questions)
 
 ## Installation
-Requires node.js to be installed before running. Also requires inquirer and fs to be installed with npm by using the command "npm install [package]".
+Requires node.js, as well as inquirer and fs to be installed with npm.
 
 ## Usage
-To use it run the command "node index.js" and answer the desired questions. The only required questions are giving the title and project description, but the more information provided the more complete the readme will be.
+The startup command is "node index.js", beyond that just answer the questions. More info = more detailed readme.
 
 ## License
 Licensed under the MIT license.
 
 
 
-
+## Test
+None
 
 ## Questions
 Where to get more information on my other projects?
@@ -30,4 +32,5 @@ https://github.com/tzeuch0922
 How to reach me with additional questions?
 
 zeuchtony@gmail.com
+
 
